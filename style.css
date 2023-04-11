@@ -1,61 +1,64 @@
-* {
+*  {
     box-sizing: border-box;
     font-family: Arial, sans-serif;
-  }
+    }
   
-  body {
-    background-color: #f2f2f2;
-    background-image: url("ia-generativa-do-fundo-da-galaxia-do-espaco.jpg");
+    body {
+    background-color: black;
     background-position: center;
     background-size: cover;
-  }
+    }
 
   
-  h1 {
+    h1 {
     text-align: center;
     margin-top: 30px;
     color: white;
-  }
+    }
   
-  form {
-    background-color: white;
-    border: 1px solid #ccc;
+    form {
+    background-color: gray;
+    border: 1px solid black;
     border-radius: 5px;
     padding: 20px;
     margin: 0 auto;
     max-width: 530px;
-  }
+    }
   
-  label {
+    label {
     display: block;
     margin-bottom: 10px;
-  }
+    }
   
-  input[type="number"] {
+    input[type="number"] {
     padding: 8px;
-    border: 1px solid #ccc;
+    border: 1px solid: gray;
     border-radius: 3px;
     width: 100%;
-  }
+    }
   
-  button[type="button"] {
+    button[type="button"] {
     background-color: #4CAF50;
     color: #fff;
     padding: 10px 20px;
     border: none;
     border-radius: 3px;
     cursor: pointer;
-  }
+    margin-bottom: 5pt;
+    }
   
-  button[type="button"]:hover {
+    button[type="button"]:hover {
     background-color: #3e8e41;
-  }
+    }
   
-  h2 {
-    text-align: center;
-    margin-top: 30px;
-    color: white;
-  }
+    h2 {
+        text-align: center;
+        margin-top: 30px;
+        color: white;
+    }
+    p {
+        color: white;
+    }
   
   .resultado {
     display: flex;
@@ -64,8 +67,8 @@
   }
   
   .resultado-item {
-    background-color: #fff;
-    border: 1px solid #ccc;
+    background-color: gray;
+    border: 1px solid black;
     border-radius: 5px;
     padding: 20px;
     width: 200px;
@@ -92,42 +95,42 @@
   .marcador1 {
     width: 20px;
     height: 20px;
-    border: 1px solid black;
+    border: 1px solid white;
     margin-left: 10px;
     display: inline-block;
   }  
   .marcador2 {
     width: 20px;
     height: 20px;
-    border: 1px solid black;
+    border: 1px solid white;
     margin-left: 10px;
     display: inline-block;
   }  
   .marcador3 {
     width: 20px;
     height: 20px;
-    border: 1px solid black;
+    border: 1px solid white;
     margin-left: 10px;
     display: inline-block;
   }  
   .marcador4 {
     width: 20px;
     height: 20px;
-    border: 1px solid black;
+    border: 1px solid white;
     margin-left: 10px;
     display: inline-block;
   }  
   .marcador5 {
     width: 20px;
     height: 20px;
-    border: 1px solid black;
+    border: 1px solid white;
     margin-left: 10px;
     display: inline-block;
   }  
   .marcador6 {
     width: 20px;
     height: 20px;
-    border: 1px solid black;
+    border: 1px solid white;
     margin-left: 10px;
     display: inline-block;
   }
@@ -149,4 +152,15 @@
   }  
   .marcador6.verde {
     background-color: green;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    display: inline-block;
+    font-size: 24px;
+    color: green;
+    margin-right: 5px;
   }

@@ -7,13 +7,31 @@
         window.onload = function() {
     document.getElementById("resultado-massa").innerHTML = resultadoMassa.toFixed(0);
     document.getElementById("resultado-velocidade").innerHTML = resultadoVelocidade.toFixed(0);
-    <back
+    <back>
   }
     </script>
   </head>
   <body>
     <h1>Nebulosa do Caos</h1>
     <form>
+        <div class="centralizar">
+        <ul>
+            <p> Marque Sua Orbita: <br>
+            <input type="radio" name="time" value="1" />
+            1
+            <input type="radio" name="time" value="2" />
+            2
+            <input type="radio" name="time" value="3" />
+            3
+            <input type="radio" name="time" value="4" />
+            4
+            <input type="radio" name="time" value="4" />
+            5
+            <input type="radio" name="time" value="4" />
+            6
+            </p>
+        </ul>  
+        </div>
         <div class="centralizar">
         <label for="massa">Massa:</label>
         <input type="number" id="massa" value="0">
@@ -40,32 +58,41 @@
       </div>
 
     </div>
+    
     <div class="centralizar">
         <button type="button" onclick="limpar()">Limpar</button>
+        <h2> Indicador de Estabilidade de Orbita</h2>
     </div>
     <div class="centralizar">
-        <span><b>Orbita 1:</b> </span>
+        <span><p>Orbita 1: </span>
         <span id="marcador1" class="marcador1"></span>
+    </p>
     </div>
     <div class="centralizar">
-        <span><b>Orbita 2:</b> </span>
+        <span><p>Orbita 2: </span>
         <span id="marcador2" class="marcador2"></span>
+    </p>
     </div>
     <div class="centralizar">
-        <span><b>Orbita 3:</b> </span>
+        <span><p>Orbita 3: </span>
         <span id="marcador3" class="marcador3"></span>
+    </p>
     </div>
     <div class="centralizar">
-        <span><b>Orbita 4:</b> </span>
+        <span><p>Orbita 4: </span>
         <span id="marcador4" class="marcador4"></span>
+    </p>
     </div>
     <div class="centralizar">
-        <span><b>Orbita 5:</b> </span>
+        <span><p>Orbita 5:</span>
         <span id="marcador5" class="marcador5"></span>        
+    </p>
     </div>
     <div class="centralizar">
-        <span><b>Orbita 6:</b> </span>
+        <span><p>Orbita 6:</span>
         <span id="marcador6" class="marcador6"></span>        
+    </p>
     </div>
+    
   </body>
 </html>
